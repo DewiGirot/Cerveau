@@ -3,9 +3,10 @@ nav {
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
-	background-color: blue;
+	background-color: #3364FF;
 	color: white;
 	font-family: sans-serif;
+	list-style-type: none;
 }
 
 .nav_left { 
@@ -22,17 +23,13 @@ nav {
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 25%;
+	width: 30%;
+	border-width: 15px;
 	text-align: center;
-	background-color: white	
 }
 
-.navbar li:hover, a:hover {
-background-color: #6CC2FF;
-}
-
-nav ul{
-	list-style-type: none;
+.nav_right a:hover {
+	background-color: #6CC2FF;
 }
 
 img {
@@ -49,4 +46,13 @@ img {
 
 p {
 	font-family: Georgia;
+}
+
+body a:hover {
+  background-color: none ;
+}
+
+body {
+	background-attachment:fixed;
+	background-image: url(img/univers.jpg);
 }
