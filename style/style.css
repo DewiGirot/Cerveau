@@ -48,13 +48,12 @@ p {
 }
 
 body a:hover {
-  background-color: none ;
+  	background-color: none ;
 }
 
 article {
 	padding-right: 10% ;
 	padding-left: 10%;
-	/*background-image: url('img/univers.jpg')*/
 }
 
 aside {
