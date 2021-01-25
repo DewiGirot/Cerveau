@@ -1,19 +1,24 @@
+header {
+	width: 100%;
+}
+
 nav {
 	display:flex;
-	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 	background-color: #3364FF;
 	color: white;
 	font-family: sans-serif;
 	list-style-type: none;
+	margin-left: 5% ;
+	width: 90%;
 }
 
 .nav_left { 
 	display:inline-block;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 1.5em;
+	font-size: 150% ;
 	width: 40%;
 	color: blue;	
 	background-color: white;
@@ -23,7 +28,7 @@ nav {
 	display:flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 30%;
+	width: 40%;
 	border-width: 15px;
 	text-align: center;
 }
@@ -38,12 +43,6 @@ img {
 	margin-left: 25% ;	
 }
 
-*{
-	/* text-align: center */
-	margin-right: 5% ;
-	margin-left: 5%;
-}
-
 p {
 	font-family: Georgia;
 }
@@ -52,7 +51,13 @@ body a:hover {
   background-color: none ;
 }
 
-body {
-	background-attachment:fixed;
-	background-image: url(img/univers.jpg);
+article {
+	padding-right: 10% ;
+	padding-left: 10%;
+	/*background-image: url('img/univers.jpg')*/
+}
+
+aside {
+	margin-right: 10% ;
+	margin-left: 10%;
 }
