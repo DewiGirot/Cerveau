@@ -2,6 +2,8 @@ https://fr.wikipedia.org/wiki/Optique#Optique_physiologique : definition
 
 https://www.fresnel.fr/spip/IMG/pdf/Optique_Physiologique.pdf : sensilite_img / sensibilite anatomie
 
+https://www.mieuxvoir.be/pathologies.php : image perception lumière dans l'oeil
+
 https://www.snof.org/encyclopedie/acuit%C3%A9-visuelle#:~:text=D%C3%A9finition,dessins%2C%20lettres...) : acuite
 
 https://lecerveau.mcgill.ca/flash/capsules/articles_pdf/perception_visuelle.pdf : perception de mouvements
