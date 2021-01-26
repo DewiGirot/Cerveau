@@ -2,14 +2,22 @@ header {
 	width: 100%;
 }
 
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:hover {
+  	background-color: none ;
+}
+
 nav {
 	display:flex;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #3364FF;
+	background-color: #4AB3FF;
 	color: white;
 	font-family: sans-serif;
-	list-style-type: none;
 	margin-left: 5% ;
 	width: 90%;
 }
@@ -20,7 +28,7 @@ nav {
 	align-items: center;
 	font-size: 150% ;
 	width: 40%;
-	color: blue;	
+	color: #4AB3FF;	
 	background-color: white;
 }
 
@@ -34,7 +42,7 @@ nav {
 }
 
 .nav_right a:hover {
-	background-color: #6CC2FF;
+	background-color: #209DFF;
 }
 
 img {
@@ -43,12 +51,14 @@ img {
 	margin-left: 25% ;	
 }
 
-p {
-	font-family: Georgia;
+video {
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
 }
 
-body a:hover {
-  	background-color: none ;
+p {
+	font-family: Georgia;
 }
 
 article {
@@ -56,7 +66,3 @@ article {
 	padding-left: 10%;
 }
 
-aside {
-	margin-right: 10% ;
-	margin-left: 10%;
-}
