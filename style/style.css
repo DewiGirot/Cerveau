@@ -8,6 +8,11 @@ section {
 	padding-left: 10%;
 }
 
+footer {
+	padding-right: 10% ;
+	padding-left: 10%;
+}
+
 img {
 	width: 35%;
 	margin-right: 40% ;
@@ -55,6 +60,11 @@ nav {
 	border-radius: 20px 15px 20px 15px;
 }
 
+.basDePage {
+	background-color: #EFF2F9;
+	border-radius: 20px 15px 20px 15px;
+}
+
 .nav_left { 
 
 	display:inline-block;
@@ -92,4 +102,10 @@ nav {
 .asideDroite {
 	display: inline-block;
 	width: 40%;
+}
+
+.basDePage a {
+	display: flex;
+	padding-left: 40%;
+	padding-right: 40%;
 }
