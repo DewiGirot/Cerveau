@@ -70,7 +70,7 @@ nav {
 	display:inline-block;
 	justify-content: space-around;
 	align-items: center;
-	font-size: 150% ;
+	font-size: auto ;
 	width: 60%;
 	color: #4AB3FF;	
 	background-color: white;
