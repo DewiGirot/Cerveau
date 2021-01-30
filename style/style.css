@@ -27,6 +27,8 @@ video {
 
 p {
 	font-family: Georgia;
+	font-size: large;
+	text-align: justify;
 }
 
 a {
@@ -54,12 +56,14 @@ nav {
 	margin-left: 5% ;
 	width: 90%;
 	font-size: 150%;
+	position: relative;
 }
 
 .corpsDePage {
 	background-color: #EFF2F9;
 	padding: 2%;
 	border-radius: 20px 15px 20px 15px;
+	position: relative;
 }
 
 .basDePage {
@@ -107,6 +111,10 @@ nav {
 	justify-content: space-between;
 	display: inline-block;
 	vertical-align: top;
+}
+
+.basDePage{
+	padding: 1%;
 }
 
 .basDePage a {
