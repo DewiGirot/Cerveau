@@ -11,14 +11,19 @@ header {
 	background-color: white;
 }
 
-section {
+.corpsDePage {
+	padding-right: 10% ;
+	padding-left: 10%;
+}
+
+.miseEnPage {
 	background-color: #EFF2F9;
 	padding: 2%;
 	border-radius: 20px 15px 20px 15px;
 	position: relative;
 }
 
-section li{
+.miseEnPage li{
 	list-style: none;
 }
 
@@ -87,31 +92,32 @@ nav li:hover {
 	border-radius: 20px 15px 20px 15px;
 }
 
+section{
+	display : flex;
+	flex : space-between;
+	align-items: center;
+	text-align: center;
+}
+
+article {
+	margin-left: 5%; 
+	width: 50%;
+}
+
+aside {
+	width: 40%;	
+	margin-right: 5%;
+}
+
 .espace{
 	margin-left: 10%;
 	margin-right: 10%;
-}
-
-.corpsDePage {
-	padding-right: 10% ;
-	padding-left: 10%;
 }
 
 .basDePage {
 	background-color: #EFF2F9;
 	border-radius: 20px 15px 20px 15px;
 } 
-
-.images{
-	display : inline-block;
-
-}
-
-.imgage article aside {
-	justify-content: space-between;
-	display: inline-block;
-	vertical-align: top;
-}
 
 .basDePage{
 	padding: 1%;
